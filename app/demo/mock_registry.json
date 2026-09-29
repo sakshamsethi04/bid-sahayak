@@ -1,0 +1,24 @@
+{
+  "_note": "MOCK government records for the BidSahayak POC. Fictional data. Replace the providers in app/services/verification with real API clients.",
+  "gst": {
+    "27AABCA1234F1Z5": {
+      "legal_name": "ABC ENGINEERING PRIVATE LIMITED",
+      "status": "Active",
+      "registration_date": "2017-07-01",
+      "state": "Maharashtra",
+      "principal_place": "Unit 7, Marol Industrial Estate, Andheri East, Mumbai, Maharashtra 400093",
+      "last_return": "GSTR-3B for August 2026 filed on 19-09-2026"
+    }
+  },
+  "pan": {
+    "AABCA1234F": {"name": "ABC ENGINEERING PRIVATE LIMITED", "status": "Valid", "holder_type": "Company", "itr_last_filed": "AY 2026-27"}
+  },
+  "udyam": {
+    "UDYAM-MH-19-0045821": {"enterprise": "ABC ENGINEERING PRIVATE LIMITED", "category": "Small", "status": "Active", "registered_on": "2020-08-22"}
+  },
+  "debarment": [
+    {"name": "Sunrise Pumps & Valves Pvt Ltd", "authority": "Demo PSU A", "until": "2027-06-30"},
+    {"name": "Metro Fluid Systems", "authority": "Demo Ministry B", "until": "2026-12-31"},
+    {"name": "Kaveri Industrial Traders", "authority": "Demo PSU C", "until": "2028-01-15"}
+  ]
+}
